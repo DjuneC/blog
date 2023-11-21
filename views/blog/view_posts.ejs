@@ -1,0 +1,14 @@
+<%- include("../partials/header.ejs") %>
+
+<h1>All posts</h1>
+
+<% if (locals.posts) { %>
+    <% posts.forEach(post => { %>
+        <h2><%= post.title %></h2>
+        <em><%= post.dateAdded %></em>
+        <p><%= post.content %></p>
+        <br/>
+    <%}) %>
+<% } %>
+
+<%- include("../partials/footer.ejs") %>
