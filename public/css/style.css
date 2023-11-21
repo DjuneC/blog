@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Agrandir;
+  src: url("../fonts/Agrandir/Agrandir-Regular.otf");
+}
+
+html {
+  height: 100vh;
+}
+
+.test {
+  font-family: Agrandir;
+}
+
+.container-fluid {
+  background-color: #e7dfd8;
+}
+
+/* NAVBAR */
+.nav-item {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* HOMEPAGE */
+.index {
+  background-color: rgba(116, 103, 87, 0.3);
+  /* border-radius: 5px; */
+}
+
+.name {
+  font-size: 4rem;
+}
+
+.bio {
+  font-size: 1.313rem;
+}
+
+.left-content {
+  margin-bottom: 6.5rem;
+}
+
+.left-content-bottom a svg {
+  margin-right: 8px;
+}
