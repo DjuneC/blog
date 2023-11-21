@@ -7,7 +7,9 @@ html {
   height: 100vh;
 }
 
-.test {
+/* Style related to the header.ejs */
+
+.main-container {
   font-family: Agrandir;
 }
 
@@ -21,14 +23,16 @@ html {
   font-weight: bold;
 }
 
+/* end styles related to the header.ejs */
+
 /* HOMEPAGE */
 .index {
   background-color: rgba(116, 103, 87, 0.3);
-  /* border-radius: 5px; */
 }
 
 .name {
   font-size: 4rem;
+  font-weight: bold;
 }
 
 .bio {
@@ -39,6 +43,13 @@ html {
   margin-bottom: 6.5rem;
 }
 
-.left-content-bottom a svg {
+.left-content-bottom em {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.left-content-bottom a {
   margin-right: 8px;
+  text-decoration: none;
 }
